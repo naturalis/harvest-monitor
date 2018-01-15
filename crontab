@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+* * * * * root sh /run.sh 2>&1
+
