@@ -7,12 +7,9 @@ format.table <- function(filename) {
     ## format date column
     tab$DATUM <- as.Date(as.character(tab$DATUM), format='%Y%m%d')
 
-    ## split MELDING column into unitID and melding
-    unitIDs <- gsub("\\s.*$", "", tab$MELDING)
-    meldings <-
+    ## split MELDING column into unitID and melding (if unitID is present)    
+    unitIDs <- ifelse(grepl("^[^\\s^\\.]+\\.", tab$MELDING), gsub("\\s.*$", "", tab$MELDING), "")
     tab$UNITID <- unitIDs
-    meldings <-gsub("\\s+$", "", gsub("^.*?\\s", "", tab$MELDING))
-    tab$MELDING <- meldings
     tab
 }
 
