@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/naturalis/harvest-monitor.svg?branch=master)](https://travis-ci.org/naturalis/harvest-monitor)
+
 # harvest-monitor
 Small web application for monitoring the medialib CRS harvest errors.
 
