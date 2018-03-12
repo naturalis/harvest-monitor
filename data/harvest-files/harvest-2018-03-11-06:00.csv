@@ -1,0 +1,35 @@
+        ID,DATUM   ,MELDING                                                                         ,HARVESTSESSIONID,TIJD    ,HARVESTMAP
+ 245276243,20180310,The remote server returned an error: (500) Internal Server Error.    at System.N,       245276242,18:01:33,geneious dna extract plates
+ 245276248,20180310,The remote server returned an error: (504) Gateway Timeout.    at System.Net.Htt,       245276245,18:03:04,geneious dna extracts
+ 245276250,20180310,The remote server returned an error: (500) Internal Server Error.    at System.N,       245276249,18:04:28,geneious specimens
+ 245276279,20180310,RGM.36199 Description does not exist                                            ,       245276252,18:04:40,Paleontologie-CRS-Algemeen
+ 245276318,20180310,RGM.47345_1 Description does not exist                                          ,       245276252,18:04:55,Paleontologie-CRS-Algemeen
+ 245276323,20180310,RGM.47345_2 Description does not exist                                          ,       245276252,18:04:57,Paleontologie-CRS-Algemeen
+ 245276329,20180310,test_marijn_20180111_1 Description contains no valid registrationnumber         ,       245276327,18:04:59,IM-CRS-Algemeen
+ 245276336,20180310,RMNH.MAM.59144._lat Description contains no valid registrationnumber            ,       245276333,18:05:01,Vertebraten-CRS-Algemeen
+ 245276338,20180310,RMNH.MAM.59143._lat Description contains no valid registrationnumber            ,       245276333,18:05:01,Vertebraten-CRS-Algemeen
+ 245276386,20180310,RMNH.MAM.59569.a_lat Description does not exist                                 ,       245276333,18:05:16,Vertebraten-CRS-Algemeen
+ 245276425,20180310,RMNH.MAM.15703.a_pal Description does not exist                                 ,       245276333,18:05:27,Vertebraten-CRS-Algemeen
+ 245276434,20180310,RMNH.MAM.15703.a_lat Description does not exist                                 ,       245276333,18:05:29,Vertebraten-CRS-Algemeen
+ 245276449,20180310,RMNH.MAM.59568.a_lat Description does not exist                                 ,       245276333,18:05:33,Vertebraten-CRS-Algemeen
+ 245276482,20180310,RMNH.MAM.59598.a_lat Description does not exist                                 ,       245276333,18:05:42,Vertebraten-CRS-Algemeen
+ 245276494,20180310,RMNH.MAM.59598.a_pal Description does not exist                                 ,       245276333,18:05:45,Vertebraten-CRS-Algemeen
+ 245276495,20180310,RMNH.MAM.15524.a_pal Description does not exist                                 ,       245276333,18:05:46,Vertebraten-CRS-Algemeen
+ 245276500,20180310,RMNH.MAM.59571.a_lat Description does not exist                                 ,       245276333,18:05:47,Vertebraten-CRS-Algemeen
+ 245276536,20180310,RMNH.MAM.59570.a_lat Description does not exist                                 ,       245276333,18:05:57,Vertebraten-CRS-Algemeen
+ 245276548,20180310,RMNH.MAM.15524.a_lat Description does not exist                                 ,       245276333,18:06:00,Vertebraten-CRS-Algemeen
+ 245276569,20180310,RMNH.MAM.59571.a_pal Description does not exist                                 ,       245276333,18:06:06,Vertebraten-CRS-Algemeen
+ 245276594,20180310,RMNH.MAM.59570.a_pal Description does not exist                                 ,       245276333,18:06:13,Vertebraten-CRS-Algemeen
+ 245276600,20180310,RMNH.MAM.15516.a_lat Description does not exist                                 ,       245276333,18:06:15,Vertebraten-CRS-Algemeen
+ 245276615,20180310,RMNH.MAM.59568.a_pal Description does not exist                                 ,       245276333,18:06:19,Vertebraten-CRS-Algemeen
+ 245276633,20180310,RMNH.MAM.15516.a_pal Description does not exist                                 ,       245276333,18:06:23,Vertebraten-CRS-Algemeen
+ 245276673,20180310,RMNH.MAM.59569.a_pal Description does not exist                                 ,       245276333,18:06:35,Vertebraten-CRS-Algemeen
+ 245276736,20180310,RMNH.AVES.888190_ven Description does not exist                                 ,       245276333,18:06:54,Vertebraten-CRS-Algemeen
+ 245276756,20180310,RMNH.AVES.888189_ven Description does not exist                                 ,       245276333,18:07:00,Vertebraten-CRS-Algemeen
+ 245276777,20180310,RMNH.AVES.888190_lat Description does not exist                                 ,       245276333,18:07:06,Vertebraten-CRS-Algemeen
+ 245276778,20180310,RMNH.AVES.888189_lat Description does not exist                                 ,       245276333,18:07:06,Vertebraten-CRS-Algemeen
+ 245276791,20180310,RMNH.AVES.888190_dor Description does not exist                                 ,       245276333,18:07:09,Vertebraten-CRS-Algemeen
+ 245276802,20180310,RMNH.AVES.888189_dor Description does not exist                                 ,       245276333,18:07:13,Vertebraten-CRS-Algemeen
+ 245276807,20180310,RMNH.AVES.888188_ven Description does not exist                                 ,       245276333,18:07:14,Vertebraten-CRS-Algemeen
+ 245276814,20180310,RMNH.AVES.888188_lat Description does not exist                                 ,       245276333,18:07:16,Vertebraten-CRS-Algemeen
+ 245276825,20180310,RMNH.AVES.888188_dor Description does not exist                                 ,       245276333,18:07:19,Vertebraten-CRS-Algemeen
