@@ -3,7 +3,7 @@ FROM sflyr/sqlplus
 MAINTAINER hettling
 
 RUN apt-get update
-RUN apt-get -y install cron r-base wget
+RUN apt-get -y install cron r-base wget git
 
 # Install shiny server
 RUN wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.5.5.872-amd64.deb
@@ -34,6 +34,10 @@ RUN R -e "install.packages(c('shiny', 'DT'), repos='http://cran.rstudio.com/')"
 ## RUN R -e 'for (p in c("shiny", "DT")) if (!require(p, character.only=TRUE)) install.packages(p, repos="http://cran.us.r-project.org")'
 	
 RUN touch /var/log/cron.log
+
+# get old harvest files that were already committed
+RUN git clone https://github.com/naturalis/harvest-monitor.git
+RUN cp harvest-monitor/data/harvest-files/* /
 
 EXPOSE 3840
 
