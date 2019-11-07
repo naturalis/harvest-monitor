@@ -37,7 +37,7 @@ RUN touch /var/log/cron.log
 
 # get old harvest files that were already committed
 RUN git clone https://github.com/naturalis/harvest-monitor.git
-RUN cp harvest-monitor/data/harvest-files/* /
+# RUN cp harvest-monitor/data/harvest-files/* /
 
 EXPOSE 3840
 
