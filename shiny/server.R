@@ -35,8 +35,8 @@ server <- function(input, output, session) {
         ## check if latest harvest file is not older then two days
         timediff = Sys.time() - file.info('/harvest.csv')$mtime < 2880
         
-        validate(!is.na(timediff) & timediff,
-                 "No harvest data for at least two days! Please contact hannes.hettling@naturalis.nl")
+        validate(need(!is.na(timediff) & timediff,
+                 "No harvest data for at least two days! Please contact hannes.hettling@naturalis.nl"))
 
         ## read harvest error database table and format datum
         tab <- format.table('/harvesterrors-db.csv')
