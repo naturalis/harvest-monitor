@@ -51,4 +51,4 @@ ENV SERVER ""
 ## CMD /bin/bash
 					
 # XXX The tail -f is needed to not exit the shell!
-CMD sh /set-env.sh && service cron start && shiny-server && tail -f /var/log/cron.log
+CMD sh /run.sh && /set-env.sh && service cron start && shiny-server && tail -f /var/log/cron.log

@@ -1,7 +1,7 @@
 
 
 ## read the current harvest errors
-current <- read.table('/harvest.csv', sep=',', header=T)
+current <- read.table('/harvest.csv', sep=',', header=T, comment.char="")
 
 db <- current
 
@@ -11,7 +11,7 @@ if (! file.exists('/harvesterrors-db.csv')) {
     db$AGE <- 0
 } else {
     ## load database
-    db <- read.table('/harvesterrors-db.csv', sep=',', header=T)    
+    db <- read.table('/harvesterrors-db.csv', sep=',', header=T, comment.char="")    
     
     ## loop through current harvest errors and check if an error
     ##   was recorded before. As the criterion, use the field "MELDING".

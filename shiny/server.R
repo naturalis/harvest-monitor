@@ -2,7 +2,7 @@ library(shiny)
 library(DT)
 
 format.table <- function(filename) {
-    tab <- read.table(filename, header=T, sep=',')
+    tab <- read.table(filename, header=T, sep=',', comment.char="")
 
     ## format date column
     tab$DATUM <- as.Date(as.character(tab$DATUM), format='%Y%m%d')
@@ -16,6 +16,7 @@ format.table <- function(filename) {
 
 ## Define server logic required to generate and plot a random distribution
 server <- function(input, output, session) {
+
     
     ## return dataset chosen in dropdown list
     dataSetInput <- reactive({
@@ -30,6 +31,12 @@ server <- function(input, output, session) {
 
     ## View 'db' harvest error table with AGE
     output$view.current.table <- DT::renderDataTable({
+
+        ## check if latest harvest file is not older then two days
+        timediff = Sys.time() - file.info('/harvest.csv')$mtime < 2880
+        
+        validate(!is.na(timediff) & timediff,
+                 "No harvest data for at least two days! Please contact hannes.hettling@naturalis.nl")
 
         ## read harvest error database table and format datum
         tab <- format.table('/harvesterrors-db.csv')
